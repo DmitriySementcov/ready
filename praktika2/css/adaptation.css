@@ -1,0 +1,128 @@
+@media (max-width: 1300px) {
+    .block {
+        flex-direction: column-reverse; 
+    }
+    .text_block_blog > h1 {
+        margin-top: 10px;
+    }
+    .text_block {
+        width: 700px;
+    }
+    .text_block_blog_review {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .img_block {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 950px) {
+    footer > .first {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer > .first > .first_text {
+        margin-top: 20px;
+    }
+    footer > .second {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 700px) {
+    footer > .first > .first_text {
+        margin-right: 0;
+        font-size: 8px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 890px) {
+    .text_block_blog > h1 {
+        width: 300px;
+        font-size: 36px;
+        line-height: normal;
+    }
+    .text_block_blog_review > p {
+        width: 400px;
+        font-size: 14px;
+        margin-top: 0px
+    }
+    .text_block {
+        width: 400px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu_button {
+        width: 992px;
+    }
+    menu {
+        padding: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .text_block {
+        width: 300px;
+    }
+    .text_block_blog_review > p {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .text_block_blog_review_acc_NS {
+        width: auto;
+    }
+}
+
+@media (max-width: 750px) {
+    .text_block_blog_review_acc {
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .text_block_blog {
+        justify-content: center;
+        align-items: center;
+    }
+    .block {
+        padding: 0 60px;
+    }
+    .btn {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 620px) {
+    .block {
+        padding: 0;
+    }
+    text_block {
+        width: 200px;
+    }
+    .text_block_blog > h1 {
+        width: 200px;
+        font-size: 24px;
+        line-height: normal;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .text_block_blog_review > p {
+        width: 200px;
+        margin-bottom: 50px;
+    }
+    .text_block_blog_review_acc_photo > img {
+        width: 60px;
+        height: 60px;
+    }
+    .text_block_blog_review_acc_NS_name {
+        font-size: 14px;
+    }
+    .text_block_blog_review_acc_NS_star {
+        margin-top: 0px;
+    }
+}
